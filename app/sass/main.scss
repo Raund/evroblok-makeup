@@ -220,6 +220,69 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-left: 15px;
 }
 /********************END product page***************************/
+/********************contact page***************************/
+.map{
+  margin-bottom: -9px;
+  filter: grayscale(100%);
+  filter: invert(100%);
+}
+.callback-wrap{
+  padding: 30px 0;
+}
+.callback-name{
+  margin-bottom: 30px;
+}
+.callback-wrap input,
+.callback-wrap textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  border:none;
+  font-size: 14px;
+  line-height: 50px;
+  color: #777;
+  background-color: rgb(238, 238, 238);
+  padding: 0px 30px;
+  outline:none;
+}
+.callback-wrap input:focus,
+.callback-wrap textarea:focus{
+  border-bottom: 1px solid #FF391F;
+}
+.callback-wrap button{
+  width: 170px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  background: #FF391F;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.callback-wrap button:hover {
+  background: #ff1f1f;
+}
+.contact-block{
+  margin-bottom: 20px;
+  padding-left: 70px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+.contact-block_name{
+  font-weight: bold;
+}
+.contact-block i{
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: -70px;
+  background-color: #FF391F;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+}
+/********************END contact page***************************/
 /********************footer***************************/
 .footer{
   padding-top: 95px;
